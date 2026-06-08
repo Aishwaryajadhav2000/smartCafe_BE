@@ -7,5 +7,8 @@ app.listen(5100 , () =>{
 });
 
 
+app.get('/' , (req , res)=>{
+    res.send("Welcome to root route")
+})
 
 
